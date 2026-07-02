@@ -73,20 +73,18 @@ The dataset contains **35 student-related features**, including demographic info
 
 ## 📂 Project Structure
 
-`text
 student-performance-prediction-ml/
 
-├── cleaning.py
-├── model.py
-├── prediction.py
-├── hybrid_student_performance_1200.csv
-├── Student_Performance_Preprocessed.csv
-├── stu_model.data
+├── hybrid_student_performance_1200.csv          # Original dataset
+├── cleaning.py                                  # Data preprocessing and encoding
+├── Student_Performance_Preprocessed.csv         # Cleaned dataset
+├── model.py                                     # Model training
+├── stu_model.data                               # Saved trained model
+├── prediction.py                                # Prediction using trained model
 ├── requirements.txt
 ├── README.md
 ├── LICENSE
 └── .gitignore
-
 
 ---
 
